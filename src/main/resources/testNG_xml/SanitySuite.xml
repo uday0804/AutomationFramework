@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite for SignIn">
+	<listeners>
+        <listener class-name="com.task.automation.util.RetryListener"/>
+ </listeners>
+	<test name="Automation SignIn">
+    	<classes>
+      		<class name="com.task.automation.test.SignIn"/>
+    	</classes>
+   </test>
+</suite>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VirtualAssistantAutomation TestSuite">
+	 <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener
+			class-name="com.task.automation.core.TestListner" />
+	</listeners>
+	<test name="SignIn Test">
+		<classes>
+			<class name="com.task.automation.Test.CreateAccount">
+			 <methods>
+					<include name="TC_Create_Team"/>
+				</methods>
+		 	 </class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,4 @@
+browser=chrome
+chrome.driver.path=resources//drivers//chromedriver.exe
+firefox.driver.path=resources//drivers//geckodriver.exe
+username="https://"

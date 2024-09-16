@@ -1,0 +1,23 @@
+{
+	"loginCredentials": {
+		"email": "udaykandimalla@gmail.com",
+		"password": "8179952838uK",
+		"greetMessage": "Welcome, uday kandimalla!"
+	},
+	"SearchOperations": {
+		"SearchInput": "Black Hoodie"
+	},
+	"SearchPageData": {
+		"SearchExpected": "Search results for: 'Black hoodieBlack hoodie'",
+		"AddCartMessage": "You added Hero Hoodie to your shopping cart"
+	},
+	"CartPageData": {
+		"StreetOne": "123 Main St",
+		"StreetTwo": "Appt 4112",
+		"City": "Aubrey",
+		"State": "Texas",
+		"zip": "76227",
+		"Phone": "4859328844",
+		"Message": "Thank you for your purchase!"
+	}
+}

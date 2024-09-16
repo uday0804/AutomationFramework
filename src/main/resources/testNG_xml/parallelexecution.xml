@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite for UI" parallel="tests" thread-count="2">
+	<test name="Automation Test CasesChrome">
+    	<classes>
+      		<class name="com.task.automation.testtwo.testone"/>
+    	</classes>
+   </test>
+   <test name="Automation Test Casesfirefox">
+    	<classes>
+      		<class name="com.task.automation.testtwo.testfirefox"/>
+    	</classes>
+   </test>
+</suite>
